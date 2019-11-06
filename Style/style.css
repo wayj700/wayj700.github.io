@@ -7,24 +7,24 @@ body{
   border: 0;
   margin: 0px;
   height: 100%;
-  background-color: #3c4245;
+  background-color: #52524e;
   text-align: center;
 }
 
 h1{
-  color: #eeeeee;
+  color: #efecec;
   margin-top: 10px;
 }
 
 h2{
   font-family: 'Staatliches', sans-serif;
   font-size: 2.5em;
-  color: #eeeeee;
+  color: #efecec;
   margin-top: 0px;
 }
 
 h3{
-  color: #eeeeee;
+  color: #efecec;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   font-size: 2em;
@@ -32,7 +32,7 @@ h3{
 }
 
 p{
-  color: #eeeeee;
+  color: #efecec;
   font-family: 'Rajdhani', sans-serif;
   font-size: 1.2em;
   margin: 0;
@@ -48,7 +48,7 @@ hr{
   border-right: 0;
   margin-left: auto;
   margin-right: auto;
-  color: #b55400;
+  color: #62929a;
 }
 
 .dotted-spacer{
@@ -60,11 +60,11 @@ hr{
   border-right: 0;
   margin-left: auto;
   margin-right: auto;
-  color: #b55400;
+  color: #62929a;
 }
 
 .nav{
-  background-color: #b55400;
+  background-color: #62929a;
   position: fixed;
   top: 0;
   z-index: 2;
@@ -90,14 +90,14 @@ cursor: pointer;
 font-family: 'Quicksand', sans-serif;
 font-weight: bold;
 font-size: 150%;
-background: #b55400;
-color: #eeeeee;
+background: #62929a;
+color: #efecec;
 border: 0;
 border-radius: 0;
 }
 
 input.navbar-list-elements:hover {
-background: #393e46;
+background: #5c5757;
 border: 0;
 }
 
@@ -112,7 +112,7 @@ border: 0;
 .middle-container{
   position: relative;
   text-align: center;
-  background-color: #222831;
+  background-color: #363434;
   margin-top: 0%;
   margin-left: auto;
   margin-right: auto;
@@ -152,21 +152,21 @@ cursor: pointer;
 font-family: 'Quicksand', sans-serif;
 font-weight: bold;
 font-size: 150%;
-background: #b55400;
-color: #eeeeee;
+background: #62929a;
+color: #efecec;
 border: 0;
 border-radius: 10px;
 }
 
 input.MyButton:hover {
-background: #393e46;
+background: #5c5757;
 border: 0;
 }
 
 .bottom-container{
   text-align: center;
   position: relative;
-  background-color: #393e46;
+  background-color: #5c5757;
   margin: auto;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
@@ -174,21 +174,35 @@ border: 0;
   height: 100%;
 }
 
+.title-div{
+  position: relative;
+  top: 34%;
+  background-color: #5c5757;
+  opacity: 70%;
+  border-radius: 3em;
+  margin: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 10vh;
+}
 
 .name-text{
   position: relative;
-  color: #eeeeee;
+  color: #efecec;
   font-family: 'Staatliches', cursive;
   font-size: 5em;
   top: 40%;
+  margin: 0;
 }
 
 .sub-name-text{
   position: relative;
-  color: #eeeeee;
+  color: #efecec;
   font-family: 'Quicksand', sans-serif;
   font-size: 2.25em;
   top: 34%;
+  margin: 0;
 }
 
 .main-img{
@@ -199,7 +213,7 @@ border: 0;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  z-index: 0;
+  z-index: -1;
   width: 100%;
   margin-left: 0;
 }
